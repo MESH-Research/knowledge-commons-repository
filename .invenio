@@ -1,0 +1,25 @@
+[cli]
+flavour = RDM
+logfile = /logs/invenio-cli.log
+
+[cookiecutter]
+project_name = Knowledge Commons Repository
+project_shortname = knowledge-commons-repository
+package_name = knowledge_commons_repository
+# TODO: Change for production deployment
+# project_site = invenio-dev.hcommons-staging.org
+project_site = localhost
+github_repo = MESH-Research/knowledge-commons-repository
+description = Knowledge Commons Repository InvenioRDM Instance
+author_name = MESH Research
+# TODO: Change for production
+author_email = scottia4@msu.edu
+year = 2023
+database = postgresql
+search = opensearch2
+file_storage = local
+development_tools = yes
+site_code = yes
+_template = https://github.com/inveniosoftware/cookiecutter-invenio-rdm.git
+
+[files]

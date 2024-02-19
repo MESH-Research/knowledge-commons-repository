@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "knowledge-commons-repository-db",
+      "Group": "Servers",
+      "Host": "knowledge-commons-repository-db-1",
+      "Port": 5432,
+      "MaintenanceDB": "postgres",
+      "Username": "knowledge-commons-repository",
+      "SSLMode": "prefer"
+    }
+  }
+}
